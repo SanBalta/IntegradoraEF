@@ -1,0 +1,181 @@
+.col-1 {width: 33.33%;}
+.col-2 {width: 100%;}
+.col-3 {width: 16.66%;}
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;                 
+    padding: 20px;
+
+}
+.header_flex_encabezado > p{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 32pt;
+    font-style: normal;
+    color: rgb(6, 146, 146);
+}
+.header_flex_encabezado, .header_flex_buscador, .header_flex_sesion{
+    display: flex;
+    align-items: center;
+}
+.header_flex_sesion{
+    justify-content: right;
+    flex-direction: row;
+}
+.head_principal{
+    width: 100%;
+    height: 450px;
+}
+.text_icon{
+    font-size: 8pt;
+
+}
+.menu_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card_dialog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-1{
+    font-size: 36pt;
+    color: rgb(6, 146, 146);
+}
+.title-2{
+    font-size: 13pt;
+    color: rgb(6, 146, 146);
+}
+.texto-card{
+    font-size: 14pt;
+}
+.banda-color{
+    background-color: rgb(6, 146, 146);
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.historias{
+    color: rgb(255, 255, 255);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 26pt;
+}
+.card-texto{
+    font-size: 8pt;
+}
+.card-titulo{
+    font-size: 10pt;
+    margin-bottom:0;
+    color: rgb(6, 146, 146);
+    font-weight: bolder;
+}
+.comillas_icon{
+    margin: 0 0 5px 0;
+}
+.carrusel, .texto-carrusel, .form-contact, .div-form-encabezado{
+    display: flex;
+    justify-content: center;
+}
+.encabezado-form{
+    display: flex;
+    justify-content: center;
+}
+.title-carrusel{
+    font-size: 36pt;
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(1, 77, 77);
+    margin-bottom: 0;
+}
+.encabezado-carrusel{
+    margin-bottom: 30px;
+}
+footer{
+    background-color: rgb(1, 90, 90);
+    color: white;
+}
+.derechos-reserv{
+    color: rgb(156, 156, 156);
+    font-family:cursive;
+}
+.carrito{
+    margin-right: 30px;
+}
+.titulo-form{
+    font-size: 34pt;
+    margin-bottom: 0;
+    color: white;
+    font-family: "Anton", sans-serif;
+}
+.banda-color-contact{
+    background-color: rgb(6, 146, 146);
+    width: 100%;
+    height: 110px;
+    margin-bottom: 50px;
+}
+.encabezado-form-top{
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card{
+    padding: 20px;
+}
+label{
+color: rgb(1, 90, 90);
+
+}
+.pie-foto{
+    font-size: 8pt;
+}
+
+.contenedor-img-encabezado{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.centrado{
+    position: absolute;
+    top: 92%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Anton", sans-serif;
+}
+.texto-carrito{
+    font-size: 28pt;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.registrarse{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
